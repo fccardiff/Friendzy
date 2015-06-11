@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "name": "LocateMyFriends",
+  "description": "A basic app that allows you to locate your friends",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Finn C",
+    "url": "http://students.gctaa.net"
+  },
+  "type": "privileged",
+  "permissions": {
+    "geolocation": {
+      "description": "Used for getting the user's location"
+    },
+    "systemXHR": {"description": "Necessary for fetching data from the LocateMe server"}
+  },
+  "installs_allowed_from": [
+    "*"
+  ]
+}
